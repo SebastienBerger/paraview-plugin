@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+81628bf4d8f4d9f558d2afc77741a7ea doc/vtkBumpMapper.qch
+5797fb89347473a338e3394b86039fab vtkBumpMapper.xml.xml
+df1c44879e05050677c27131f4b945a9 vtkBumpMapperClientServer.cxx
+b553026b32b1d2fb6ff34798a88aa7e2 vtkBumpMapper_doc.h
+91fe104dc7c1b292cb507338d08507b7 vtkSMXML_vtkBumpMapper.h

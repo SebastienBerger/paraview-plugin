@@ -1,0 +1,6 @@
+FIND_PACKAGE(ParaView REQUIRED)
+  INCLUDE(${PARAVIEW_USE_FILE})
+  ADD_PARAVIEW_PLUGIN(vtkBumpMapper "1.0"
+  SERVER_MANAGER_XML vtkBumpMapper.xml
+  SERVER_MANAGER_SOURCES vtkBumpMapper.cxx)
+  INCLUDE_DIRECTORIES(/usr/local/ParaView-v4.2.0-source/VTK)

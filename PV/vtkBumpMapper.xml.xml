@@ -1,0 +1,45 @@
+<xml>
+
+<proxy>
+    <group>filters</group>
+    <name>vtkBumpMapper</name>
+    <label>Bump Mapper</label>
+    <documentation>
+        <brief>This filter generates an arrow, cone, cube, cylinder, line, sphere, or 2D glyph at each point of the input data set.  The glyphs can be oriented and scaled by point attributes of the input dataset.</brief>
+        <long>
+            The Glyph filter generates a glyph (i.e., an arrow, cone, cube, cylinder, line, sphere, or 2D glyph) at each point in the input dataset. The glyphs can be oriented and scaled by the input point-centered scalars and vectors. The Glyph filter operates on any type of data set. Its output is polygonal. This filter is available on the Toolbar.
+        </long>
+    </documentation>
+    <property>
+        <name>LineDataSet</name>
+        <label>LineDataSet</label>
+        <documentation>
+            <brief/>
+            <long>
+                Set the source data set landmark points.
+            </long>
+        </documentation>
+        <defaults/>
+        <domains>
+            <domain>
+                <text>Accepts input of following types:</text>
+                <list>
+                    <item>vtkPolyData</item>
+                </list>
+            </domain>
+        </domains>
+    </property>
+    <property>
+        <name>CurrentIntegrationTime</name>
+        <label>Current Step</label>
+        <defaults>0.0</defaults>
+        <domains>
+  Value(s) must be in the range (
+    ,
+    ).
+</domains>
+    </property>
+</proxy>
+    
+
+</xml>

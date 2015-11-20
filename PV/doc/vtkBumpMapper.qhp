@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>vtkBumpMapper.org</namespace>
+    <virtualFolder>vtkBumpMapper</virtualFolder>
+    <filterSection>
+        <toc> <section title="vtkBumpMapper" ref="filters.BumpMapper.html" >
+     <section title="Bump Mapper" ref="filters.BumpMapper.html" />
+    <section title="Bump Mapper" ref="filters.vtkBumpMapper.html" />
+ </section> </toc>
+        <keywords>
+          <!-- how to handle keywords? -->
+        </keywords>
+        <files>
+          <file>*.html</file>
+<file>*.css</file>
+<file>*.png</file>
+<file>*.jpg</file>
+
+        </files>
+    </filterSection>
+</QtHelpProject>
